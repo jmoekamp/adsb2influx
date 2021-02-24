@@ -50,7 +50,7 @@ json_body = [
 		{
             "measurement": "adsb",
             "tags": {
-                "host": "192.168.1.193"
+                "host": ip
             },
             "fields": {
                 "messages": data_stats["last1min"]["messages"],
